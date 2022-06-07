@@ -52,9 +52,10 @@ namespace Inventory.Services.Controllers
 
         // PUT api/<ArticuloController>/5
         [HttpPut]
-        public async Task<bool> Put([FromBody] Articulo articulo)
+        public async Task<ActionResult<bool>> Put([FromBody] Articulo articulo)
         {
-            return await _articuloCore.UpdateArticulosAsync(articulo);
+            var response = await _articuloCore.UpdateArticuloAsync(articulo);
+            return StatusCode((int)response.StatusHttp, response);
         }
 
         // DELETE api/<ArticuloController>/5

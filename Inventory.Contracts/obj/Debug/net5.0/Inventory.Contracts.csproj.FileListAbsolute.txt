@@ -1,0 +1,15 @@
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Contracts\bin\Debug\net5.0\Inventory.Contracts.deps.json
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Contracts\bin\Debug\net5.0\Inventory.Contracts.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Contracts\bin\Debug\net5.0\ref\Inventory.Contracts.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Contracts\bin\Debug\net5.0\Inventory.Contracts.pdb
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Contracts\bin\Debug\net5.0\Inventory.Entities.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Contracts\bin\Debug\net5.0\Inventory.Entities.pdb
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Contracts\obj\Debug\net5.0\Inventory.Contracts.csproj.AssemblyReference.cache
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Contracts\obj\Debug\net5.0\Inventory.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Contracts\obj\Debug\net5.0\Inventory.Contracts.AssemblyInfoInputs.cache
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Contracts\obj\Debug\net5.0\Inventory.Contracts.AssemblyInfo.cs
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Contracts\obj\Debug\net5.0\Inventory.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Contracts\obj\Debug\net5.0\Inventory.Contracts.csproj.CopyComplete
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Contracts\obj\Debug\net5.0\Inventory.Contracts.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Contracts\obj\Debug\net5.0\ref\Inventory.Contracts.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Contracts\obj\Debug\net5.0\Inventory.Contracts.pdb

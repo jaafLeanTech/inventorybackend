@@ -1,6 +1,8 @@
 using AutoMapper;
+using Inventory.Contracts.Repository;
 using Inventory.Core.Core.Mapping;
 using Inventory.DataAccess.Context;
+using Inventory.Repositories.ImplementRepositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -49,6 +51,8 @@ namespace Inventory.Services
             {
                 op.UseSqlServer(Configuration.GetConnectionString("Default"));
             });
+
+            services.AddTransient<IArticuloRepository, ArticuloRepository>();
 
         }
 

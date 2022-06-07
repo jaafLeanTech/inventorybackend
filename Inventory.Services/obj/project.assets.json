@@ -1868,6 +1868,20 @@
         "runtime": {
           "bin/placeholder/Inventory.Entities.dll": {}
         }
+      },
+      "Inventory.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Inventory.Contracts": "1.0.0",
+          "Inventory.DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Inventory.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Inventory.Repositories.dll": {}
+        }
       }
     }
   },
@@ -6560,6 +6574,11 @@
       "type": "project",
       "path": "../Inventory.Entities/Inventory.Entities.csproj",
       "msbuildProject": "../Inventory.Entities/Inventory.Entities.csproj"
+    },
+    "Inventory.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../Inventory.Repositories/Inventory.Repositories.csproj",
+      "msbuildProject": "../Inventory.Repositories/Inventory.Repositories.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6567,6 +6586,7 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "Inventory.Core >= 1.0.0",
       "Inventory.Entities >= 1.0.0",
+      "Inventory.Repositories >= 1.0.0",
       "Serilog.AspNetCore >= 5.0.0",
       "Serilog.Sinks.Console >= 4.0.1",
       "Serilog.Sinks.File >= 5.0.0",
@@ -6610,6 +6630,9 @@
             },
             "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Entities\\Inventory.Entities.csproj": {
               "projectPath": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Entities\\Inventory.Entities.csproj"
+            },
+            "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Repositories\\Inventory.Repositories.csproj": {
+              "projectPath": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Repositories\\Inventory.Repositories.csproj"
             }
           }
         }

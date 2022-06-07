@@ -8,6 +8,13 @@ namespace Inventory.DataAccess.Context
     {
         private readonly string _connectionString = string.Empty;
 
+        public DbSet<Articulo> Articulo { get; set; }
+
+        public SqlServerContext()
+        {
+            _connectionString = @"Data Source = DESKTOP-V89KSU6\SQLEXPRESS; Initial Catalog = Inventory; Integrated Security = true";
+        }
+
         public SqlServerContext(DbContextOptions<SqlServerContext> options):base(options)
         {
             //_connectionString = @"Data Source = DESKTOP-V89KSU6\SQLEXPRESS; Initial Catalog = Inventory; Integrated Security = true";
@@ -15,7 +22,7 @@ namespace Inventory.DataAccess.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //optionsBuilder.UseSqlServer(_connectionString);
+            optionsBuilder.UseSqlServer(_connectionString);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

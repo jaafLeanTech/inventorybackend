@@ -15,6 +15,11 @@ namespace Inventory.Repositories.ImplementRepositories
     {
 
         private readonly SqlServerContext _context;
+
+        public ArticuloRepository()
+        {
+            _context = new SqlServerContext();
+        }
         public async Task<Tuple<Articulo, bool>> AddAsync(Articulo entity)
         {
             try

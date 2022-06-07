@@ -79,3 +79,7 @@ C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Servi
 C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services\bin\Debug\net5.0\Inventory.Contracts.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services\bin\Debug\net5.0\Inventory.Repositories.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services\bin\Debug\net5.0\Inventory.Repositories.pdb
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services\bin\Debug\net5.0\Inventory.Contracts.pdb
