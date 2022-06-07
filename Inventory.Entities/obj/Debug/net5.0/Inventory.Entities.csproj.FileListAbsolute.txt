@@ -1,0 +1,12 @@
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Entities\bin\Debug\net5.0\Inventory.Entities.deps.json
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Entities\bin\Debug\net5.0\Inventory.Entities.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Entities\bin\Debug\net5.0\ref\Inventory.Entities.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Entities\bin\Debug\net5.0\Inventory.Entities.pdb
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Entities\obj\Debug\net5.0\Inventory.Entities.csproj.AssemblyReference.cache
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Entities\obj\Debug\net5.0\Inventory.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Entities\obj\Debug\net5.0\Inventory.Entities.AssemblyInfoInputs.cache
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Entities\obj\Debug\net5.0\Inventory.Entities.AssemblyInfo.cs
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Entities\obj\Debug\net5.0\Inventory.Entities.csproj.CoreCompileInputs.cache
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Entities\obj\Debug\net5.0\Inventory.Entities.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Entities\obj\Debug\net5.0\ref\Inventory.Entities.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Entities\obj\Debug\net5.0\Inventory.Entities.pdb

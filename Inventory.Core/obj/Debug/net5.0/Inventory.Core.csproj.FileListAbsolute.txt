@@ -1,0 +1,17 @@
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\bin\Debug\net5.0\Inventory.Core.deps.json
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\bin\Debug\net5.0\Inventory.Core.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\bin\Debug\net5.0\ref\Inventory.Core.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\bin\Debug\net5.0\Inventory.Core.pdb
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\bin\Debug\net5.0\Inventory.DataAccess.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\bin\Debug\net5.0\Inventory.Entities.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\bin\Debug\net5.0\Inventory.DataAccess.pdb
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\bin\Debug\net5.0\Inventory.Entities.pdb
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\obj\Debug\net5.0\Inventory.Core.csproj.AssemblyReference.cache
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\obj\Debug\net5.0\Inventory.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\obj\Debug\net5.0\Inventory.Core.AssemblyInfoInputs.cache
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\obj\Debug\net5.0\Inventory.Core.AssemblyInfo.cs
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\obj\Debug\net5.0\Inventory.Core.csproj.CoreCompileInputs.cache
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\obj\Debug\net5.0\Inventory.Core.csproj.CopyComplete
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\obj\Debug\net5.0\Inventory.Core.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\obj\Debug\net5.0\ref\Inventory.Core.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\obj\Debug\net5.0\Inventory.Core.pdb

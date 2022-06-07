@@ -1,0 +1,96 @@
+2022-06-07 06:02:50.990 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-07 06:02:51.004 -05:00 [INF] Hosting environment: Development
+2022-06-07 06:02:51.006 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-07 06:02:51.006 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-07 06:02:51.135 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 132.1173ms
+2022-06-07 06:02:51.256 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-07 06:02:51.324 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 67.1718ms
+2022-06-07 07:19:26.282 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-07 07:19:26.293 -05:00 [INF] Hosting environment: Development
+2022-06-07 07:19:26.294 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-07 07:19:26.295 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-07 07:19:26.401 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 107.4435ms
+2022-06-07 07:19:26.536 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-07 07:19:26.608 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.0534ms
+2022-06-07 07:19:56.423 -05:00 [INF] Request starting HTTP/2 POST https://localhost:44300/api/Articulos application/json 103
+2022-06-07 07:19:56.449 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.ArticulosController.Post (Inventory.Services)'
+2022-06-07 07:19:56.474 -05:00 [INF] Route matched with {action = "Post", controller = "Articulos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Inventory.Entities.Entities.Articulo]] Post(Inventory.Entities.DTOs.ArticuloCreateDto) on controller Inventory.Services.Controllers.ArticulosController (Inventory.Services).
+2022-06-07 07:19:57.340 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[Inventory.Entities.Entities.Articulo, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-07 07:19:57.356 -05:00 [INF] Executed action Inventory.Services.Controllers.ArticulosController.Post (Inventory.Services) in 878.2411ms
+2022-06-07 07:19:57.358 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.ArticulosController.Post (Inventory.Services)'
+2022-06-07 07:19:57.359 -05:00 [INF] Request finished HTTP/2 POST https://localhost:44300/api/Articulos application/json 103 - 500 - application/json;+charset=utf-8 935.1853ms
+2022-06-07 07:20:19.732 -05:00 [INF] Request starting HTTP/2 POST https://localhost:44300/api/Articulos application/json 103
+2022-06-07 07:20:19.737 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.ArticulosController.Post (Inventory.Services)'
+2022-06-07 07:20:19.737 -05:00 [INF] Route matched with {action = "Post", controller = "Articulos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Inventory.Entities.Entities.Articulo]] Post(Inventory.Entities.DTOs.ArticuloCreateDto) on controller Inventory.Services.Controllers.ArticulosController (Inventory.Services).
+2022-06-07 07:20:19.801 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[Inventory.Entities.Entities.Articulo, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-07 07:20:19.802 -05:00 [INF] Executed action Inventory.Services.Controllers.ArticulosController.Post (Inventory.Services) in 64.5853ms
+2022-06-07 07:20:19.806 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.ArticulosController.Post (Inventory.Services)'
+2022-06-07 07:20:19.806 -05:00 [INF] Request finished HTTP/2 POST https://localhost:44300/api/Articulos application/json 103 - 201 - application/json;+charset=utf-8 73.6678ms
+2022-06-07 07:20:32.309 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Articulos - -
+2022-06-07 07:20:32.309 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-07 07:20:32.313 -05:00 [INF] Route matched with {action = "Get", controller = "Articulos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Articulo]]] Get() on controller Inventory.Services.Controllers.ArticulosController (Inventory.Services).
+2022-06-07 07:20:32.448 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[System.Collections.Generic.List`1[[Inventory.Entities.Entities.Articulo, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-06-07 07:20:32.449 -05:00 [INF] Executed action Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services) in 136.5386ms
+2022-06-07 07:20:32.449 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-07 07:20:32.449 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Articulos - - - 200 - application/json;+charset=utf-8 140.6923ms
+2022-06-07 07:43:43.965 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-07 07:43:43.982 -05:00 [INF] Hosting environment: Development
+2022-06-07 07:43:43.983 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-07 07:43:43.985 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-07 07:43:44.095 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 113.4378ms
+2022-06-07 07:43:44.224 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-07 07:43:44.294 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 69.8241ms
+2022-06-07 07:43:54.490 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Articulos - -
+2022-06-07 07:43:54.518 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-07 07:43:54.548 -05:00 [INF] Route matched with {action = "Get", controller = "Articulos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Articulo]]] Get() on controller Inventory.Services.Controllers.ArticulosController (Inventory.Services).
+2022-06-07 07:44:14.341 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-07 07:44:14.354 -05:00 [INF] Hosting environment: Development
+2022-06-07 07:44:14.355 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-07 07:44:14.361 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-07 07:44:14.448 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 91.4412ms
+2022-06-07 07:44:14.574 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-07 07:44:14.682 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.9592ms
+2022-06-07 07:44:21.909 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Articulos - -
+2022-06-07 07:44:21.940 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-07 07:44:21.965 -05:00 [INF] Route matched with {action = "Get", controller = "Articulos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Articulo]]] Get() on controller Inventory.Services.Controllers.ArticulosController (Inventory.Services).
+2022-06-07 07:44:22.435 -05:00 [INF] Entity Framework Core 5.0.16 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-06-07 07:44:22.510 -05:00 [ERR] Service: GetClientAsync, Message: Format of the initialization string does not conform to specification starting at index 73. InnerMessage: 
+System.ArgumentException: Format of the initialization string does not conform to specification starting at index 73.
+   at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String& keyname, String& keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Dictionary`2 parsetable, String connectionString, Boolean buildChain, Dictionary`2 synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Dictionary`2 synonyms, Boolean useOdbcRules)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Microsoft.Data.SqlClient.SqlConnectionStringBuilder..ctor(String connectionString)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.<>c.<get_IsMultipleActiveResultSetsEnabled>b__7_0(String cs)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.get_IsMultipleActiveResultSetsEnabled()
+   at Microsoft.EntityFrameworkCore.SqlServer.Query.Internal.SqlServerCompiledQueryCacheKeyGenerator.GenerateCacheKey(Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IAsyncEnumerable<TEntity>.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Inventory.Core.Core.V1.ArticuloCore.GetArticulosAsync() in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\Core\V1\ArticuloCore.cs:line 35
+2022-06-07 07:44:22.568 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[System.Collections.Generic.List`1[[Inventory.Entities.Entities.Articulo, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-06-07 07:44:22.586 -05:00 [INF] Executed action Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services) in 617.4212ms
+2022-06-07 07:44:22.587 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-07 07:44:22.594 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Articulos - - - 500 - application/json;+charset=utf-8 684.8488ms
+2022-06-07 07:46:12.931 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-07 07:46:12.943 -05:00 [INF] Hosting environment: Development
+2022-06-07 07:46:12.944 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-07 07:46:12.945 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-07 07:46:13.027 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 83.1079ms
+2022-06-07 07:46:13.137 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-07 07:46:13.195 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.8906ms
+2022-06-07 07:46:17.329 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Articulos - -
+2022-06-07 07:46:17.354 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-07 07:46:17.381 -05:00 [INF] Route matched with {action = "Get", controller = "Articulos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Articulo]]] Get() on controller Inventory.Services.Controllers.ArticulosController (Inventory.Services).
+2022-06-07 07:46:17.804 -05:00 [INF] Entity Framework Core 5.0.16 initialized 'SqlServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2022-06-07 07:46:18.247 -05:00 [INF] Executed DbCommand (36ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[IdArticulo], [a].[CodigoBarra], [a].[Descripcion], [a].[Estado], [a].[SaldoExistencia], [a].[UnidadMedida]
+FROM [Articulos] AS [a]
+2022-06-07 07:46:18.309 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[System.Collections.Generic.List`1[[Inventory.Entities.Entities.Articulo, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-06-07 07:46:18.325 -05:00 [INF] Executed action Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services) in 940.9134ms
+2022-06-07 07:46:18.325 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-07 07:46:18.329 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Articulos - - - 200 - application/json;+charset=utf-8 999.1158ms

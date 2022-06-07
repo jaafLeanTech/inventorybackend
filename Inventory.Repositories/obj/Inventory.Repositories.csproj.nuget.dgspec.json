@@ -1,0 +1,275 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Repositories\\Inventory.Repositories.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Contracts\\Inventory.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Contracts\\Inventory.Contracts.csproj",
+        "projectName": "Inventory.Contracts",
+        "projectPath": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Contracts\\Inventory.Contracts.csproj",
+        "packagesPath": "C:\\Users\\JHONNY AVENDANO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JHONNY AVENDANO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Entities\\Inventory.Entities.csproj": {
+                "projectPath": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Entities\\Inventory.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.DataAccess\\Inventory.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.DataAccess\\Inventory.DataAccess.csproj",
+        "projectName": "Inventory.DataAccess",
+        "projectPath": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.DataAccess\\Inventory.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\JHONNY AVENDANO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JHONNY AVENDANO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Entities\\Inventory.Entities.csproj": {
+                "projectPath": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Entities\\Inventory.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Entities\\Inventory.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Entities\\Inventory.Entities.csproj",
+        "projectName": "Inventory.Entities",
+        "projectPath": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Entities\\Inventory.Entities.csproj",
+        "packagesPath": "C:\\Users\\JHONNY AVENDANO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JHONNY AVENDANO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Repositories\\Inventory.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Repositories\\Inventory.Repositories.csproj",
+        "projectName": "Inventory.Repositories",
+        "projectPath": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Repositories\\Inventory.Repositories.csproj",
+        "packagesPath": "C:\\Users\\JHONNY AVENDANO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JHONNY AVENDANO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Contracts\\Inventory.Contracts.csproj": {
+                "projectPath": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.Contracts\\Inventory.Contracts.csproj"
+              },
+              "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.DataAccess\\Inventory.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\JHONNY AVENDANO\\Desktop\\Back_End\\ClassProject\\Inventory\\Inventory.DataAccess\\Inventory.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

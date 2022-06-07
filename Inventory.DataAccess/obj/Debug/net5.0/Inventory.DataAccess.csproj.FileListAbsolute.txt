@@ -1,0 +1,15 @@
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.DataAccess\bin\Debug\net5.0\Inventory.DataAccess.deps.json
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.DataAccess\bin\Debug\net5.0\Inventory.DataAccess.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.DataAccess\bin\Debug\net5.0\ref\Inventory.DataAccess.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.DataAccess\bin\Debug\net5.0\Inventory.DataAccess.pdb
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.DataAccess\bin\Debug\net5.0\Inventory.Entities.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.DataAccess\bin\Debug\net5.0\Inventory.Entities.pdb
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.DataAccess\obj\Debug\net5.0\Inventory.DataAccess.csproj.AssemblyReference.cache
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.DataAccess\obj\Debug\net5.0\Inventory.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.DataAccess\obj\Debug\net5.0\Inventory.DataAccess.AssemblyInfoInputs.cache
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.DataAccess\obj\Debug\net5.0\Inventory.DataAccess.AssemblyInfo.cs
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.DataAccess\obj\Debug\net5.0\Inventory.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.DataAccess\obj\Debug\net5.0\Inventory.DataAccess.csproj.CopyComplete
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.DataAccess\obj\Debug\net5.0\Inventory.DataAccess.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.DataAccess\obj\Debug\net5.0\ref\Inventory.DataAccess.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.DataAccess\obj\Debug\net5.0\Inventory.DataAccess.pdb
