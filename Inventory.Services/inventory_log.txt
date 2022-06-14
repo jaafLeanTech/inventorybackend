@@ -118,3 +118,486 @@ FROM [Articulos] AS [a]
 2022-06-07 11:29:20.866 -05:00 [INF] Executed action Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services) in 1034.3843ms
 2022-06-07 11:29:20.869 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
 2022-06-07 11:29:20.872 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Articulos - - - 200 - application/json;+charset=utf-8 1115.4603ms
+2022-06-07 12:50:35.430 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-07 12:50:35.468 -05:00 [INF] Hosting environment: Development
+2022-06-07 12:50:35.479 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-07 12:50:35.516 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-07 12:50:35.716 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 203.9435ms
+2022-06-07 12:50:35.862 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-07 12:50:35.974 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.7910ms
+2022-06-07 12:50:40.749 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Articulos - -
+2022-06-07 12:50:40.789 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-07 12:50:40.824 -05:00 [INF] Route matched with {action = "Get", controller = "Articulos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Articulo]]] Get() on controller Inventory.Services.Controllers.ArticulosController (Inventory.Services).
+2022-06-07 12:50:43.659 -05:00 [ERR] Service: GetClientAsync, Message: Invalid object name 'Articulo'. InnerMessage: 
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Articulo'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Inventory.Repositories.ImplementRepositories.ArticuloRepository.GetAllAsync() in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Repositories\ImplementRepositories\ArticuloRepository.cs:line 43
+   at Inventory.Core.Core.V1.ArticuloCore.GetArticulosAsync() in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\Core\V1\ArticuloCore.cs:line 36
+ClientConnectionId:b0cc5df7-36f2-4f99-a81b-b0dab319b26d
+Error Number:208,State:1,Class:16
+2022-06-07 12:50:43.866 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[System.Collections.Generic.List`1[[Inventory.Entities.Entities.Articulo, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-06-07 12:50:43.896 -05:00 [INF] Executed action Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services) in 3066.862ms
+2022-06-07 12:50:43.900 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-07 12:50:43.901 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Articulos - - - 500 - application/json;+charset=utf-8 3152.8061ms
+2022-06-07 12:51:03.119 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Articulos - -
+2022-06-07 12:51:03.121 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-07 12:51:03.123 -05:00 [INF] Route matched with {action = "Get", controller = "Articulos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Articulo]]] Get() on controller Inventory.Services.Controllers.ArticulosController (Inventory.Services).
+2022-06-07 12:51:03.232 -05:00 [ERR] Service: GetClientAsync, Message: Invalid object name 'Articulo'. InnerMessage: 
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Articulo'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Inventory.Repositories.ImplementRepositories.ArticuloRepository.GetAllAsync() in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Repositories\ImplementRepositories\ArticuloRepository.cs:line 43
+   at Inventory.Core.Core.V1.ArticuloCore.GetArticulosAsync() in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\Core\V1\ArticuloCore.cs:line 36
+ClientConnectionId:b0cc5df7-36f2-4f99-a81b-b0dab319b26d
+Error Number:208,State:1,Class:16
+2022-06-07 12:51:03.234 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[System.Collections.Generic.List`1[[Inventory.Entities.Entities.Articulo, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-06-07 12:51:03.235 -05:00 [INF] Executed action Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services) in 111.5656ms
+2022-06-07 12:51:03.235 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-07 12:51:03.236 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Articulos - - - 500 - application/json;+charset=utf-8 117.0334ms
+2022-06-07 12:51:47.961 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-07 12:51:47.990 -05:00 [INF] Hosting environment: Development
+2022-06-07 12:51:47.992 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-07 12:51:47.998 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-07 12:51:48.174 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 180.9098ms
+2022-06-07 12:51:48.376 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-07 12:51:48.504 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 127.3331ms
+2022-06-07 12:51:53.521 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Articulos - -
+2022-06-07 12:51:53.561 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-07 12:51:53.598 -05:00 [INF] Route matched with {action = "Get", controller = "Articulos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Articulo]]] Get() on controller Inventory.Services.Controllers.ArticulosController (Inventory.Services).
+2022-06-07 12:51:54.969 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[System.Collections.Generic.List`1[[Inventory.Entities.Entities.Articulo, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-06-07 12:51:54.995 -05:00 [INF] Executed action Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services) in 1390.5883ms
+2022-06-07 12:51:54.999 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-07 12:51:55.001 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Articulos - - - 200 - application/json;+charset=utf-8 1485.0963ms
+2022-06-13 09:14:25.728 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-13 09:14:25.756 -05:00 [INF] Hosting environment: Development
+2022-06-13 09:14:25.758 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-13 09:14:25.814 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-13 09:14:26.058 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 245.6770ms
+2022-06-13 09:14:26.346 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-13 09:14:26.477 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 131.3624ms
+2022-06-13 09:17:54.804 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Articulos - -
+2022-06-13 09:17:54.839 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-13 09:17:54.888 -05:00 [INF] Route matched with {action = "Get", controller = "Articulos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Articulo]]] Get() on controller Inventory.Services.Controllers.ArticulosController (Inventory.Services).
+2022-06-13 09:17:57.329 -05:00 [ERR] Service: GetClientAsync, Message: Invalid object name 'Articulo'. InnerMessage: 
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Articulo'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Inventory.Repositories.ImplementRepositories.ArticuloRepository.GetAllAsync() in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Repositories\ImplementRepositories\ArticuloRepository.cs:line 43
+   at Inventory.Core.Core.V1.ArticuloCore.GetArticulosAsync() in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\Core\V1\ArticuloCore.cs:line 36
+ClientConnectionId:13d5d477-4a04-40b7-9fb3-8ade90d23a04
+Error Number:208,State:1,Class:16
+2022-06-13 09:17:57.559 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[System.Collections.Generic.List`1[[Inventory.Entities.Entities.Articulo, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-06-13 09:17:57.588 -05:00 [INF] Executed action Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services) in 2695.3403ms
+2022-06-13 09:17:57.590 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-13 09:17:57.592 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Articulos - - - 500 - application/json;+charset=utf-8 2788.1549ms
+2022-06-13 09:23:08.587 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-13 09:23:08.606 -05:00 [INF] Hosting environment: Development
+2022-06-13 09:23:08.609 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-13 09:23:08.611 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-13 09:23:08.719 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 112.8387ms
+2022-06-13 09:23:08.856 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-13 09:23:08.942 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 86.1361ms
+2022-06-13 09:23:17.291 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Articulos - -
+2022-06-13 09:23:17.318 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-13 09:23:17.344 -05:00 [INF] Route matched with {action = "Get", controller = "Articulos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Articulo]]] Get() on controller Inventory.Services.Controllers.ArticulosController (Inventory.Services).
+2022-06-13 09:23:18.469 -05:00 [ERR] Service: GetClientAsync, Message: Invalid object name 'Articulo'. InnerMessage: 
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Articulo'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Inventory.Repositories.ImplementRepositories.ArticuloRepository.GetAllAsync() in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Repositories\ImplementRepositories\ArticuloRepository.cs:line 43
+   at Inventory.Core.Core.V1.ArticuloCore.GetArticulosAsync() in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\Core\V1\ArticuloCore.cs:line 36
+ClientConnectionId:551b4098-8ae9-48a8-b311-a33d1990e34e
+Error Number:208,State:1,Class:16
+2022-06-13 09:23:18.580 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[System.Collections.Generic.List`1[[Inventory.Entities.Entities.Articulo, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-06-13 09:23:18.599 -05:00 [INF] Executed action Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services) in 1250.0803ms
+2022-06-13 09:23:18.602 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-13 09:23:18.604 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Articulos - - - 500 - application/json;+charset=utf-8 1312.9052ms
+2022-06-13 09:32:14.108 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-13 09:32:14.130 -05:00 [INF] Hosting environment: Development
+2022-06-13 09:32:14.131 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-13 09:32:14.134 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-13 09:32:14.233 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 102.3551ms
+2022-06-13 09:32:14.378 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-13 09:32:14.460 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.8301ms
+2022-06-13 09:32:20.055 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Articulos - -
+2022-06-13 09:32:20.083 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-13 09:32:20.109 -05:00 [INF] Route matched with {action = "Get", controller = "Articulos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Articulo]]] Get() on controller Inventory.Services.Controllers.ArticulosController (Inventory.Services).
+2022-06-13 09:32:21.147 -05:00 [ERR] Service: GetClientAsync, Message: Invalid object name 'Articulo'. InnerMessage: 
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Articulo'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Inventory.Repositories.ImplementRepositories.ArticuloRepository.GetAllAsync() in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Repositories\ImplementRepositories\ArticuloRepository.cs:line 43
+   at Inventory.Core.Core.V1.ArticuloCore.GetArticulosAsync() in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\Core\V1\ArticuloCore.cs:line 36
+ClientConnectionId:198a14fb-5574-425d-ae24-02b7057bd392
+Error Number:208,State:1,Class:16
+2022-06-13 09:32:21.184 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[System.Collections.Generic.List`1[[Inventory.Entities.Entities.Articulo, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-06-13 09:32:21.201 -05:00 [INF] Executed action Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services) in 1088.7472ms
+2022-06-13 09:32:21.205 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-13 09:32:21.206 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Articulos - - - 500 - application/json;+charset=utf-8 1151.0243ms
+2022-06-13 09:52:10.869 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-13 09:52:10.884 -05:00 [INF] Hosting environment: Development
+2022-06-13 09:52:10.885 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-13 09:52:10.887 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-13 09:52:10.995 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 110.6481ms
+2022-06-13 09:52:11.125 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-13 09:52:11.198 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.3907ms
+2022-06-13 09:52:16.929 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Articulos - -
+2022-06-13 09:52:16.961 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-13 09:52:16.981 -05:00 [INF] Route matched with {action = "Get", controller = "Articulos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Articulo]]] Get() on controller Inventory.Services.Controllers.ArticulosController (Inventory.Services).
+2022-06-13 09:52:18.043 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[System.Collections.Generic.List`1[[Inventory.Entities.Entities.Articulo, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-06-13 09:52:18.066 -05:00 [INF] Executed action Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services) in 1079.4805ms
+2022-06-13 09:52:18.069 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-13 09:52:18.071 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Articulos - - - 200 - application/json;+charset=utf-8 1141.1140ms
+2022-06-13 17:37:05.998 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-13 17:37:06.023 -05:00 [INF] Hosting environment: Development
+2022-06-13 17:37:06.024 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-13 17:37:06.030 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-13 17:37:06.131 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 103.2311ms
+2022-06-13 17:37:06.249 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-13 17:37:06.275 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/favicon-32x32.png - -
+2022-06-13 17:37:06.306 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-06-13 17:37:06.307 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/favicon-32x32.png - - - 200 628 image/png 35.0672ms
+2022-06-13 17:37:06.335 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 85.8981ms
+2022-06-13 17:48:05.063 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-13 17:48:05.073 -05:00 [INF] Hosting environment: Development
+2022-06-13 17:48:05.074 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-13 17:48:05.076 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-13 17:48:05.151 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 76.7370ms
+2022-06-13 17:48:05.260 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-13 17:48:05.318 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.8705ms
+2022-06-13 18:39:49.936 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-13 18:39:49.947 -05:00 [INF] Hosting environment: Development
+2022-06-13 18:39:49.947 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-13 18:39:49.949 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-13 18:39:50.023 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 76.1603ms
+2022-06-13 18:39:50.127 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-13 18:39:50.192 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 65.1155ms
+2022-06-13 18:40:07.315 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Movimientos - -
+2022-06-13 18:40:07.343 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.MovimientosController.Get (Inventory.Services)'
+2022-06-13 18:40:07.365 -05:00 [INF] Route matched with {action = "Get", controller = "Movimientos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Movimiento]]] Get() on controller Inventory.Services.Controllers.MovimientosController (Inventory.Services).
+2022-06-13 18:45:10.741 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-13 18:45:10.759 -05:00 [INF] Hosting environment: Development
+2022-06-13 18:45:10.760 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-13 18:45:10.761 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-13 18:45:10.844 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 83.9588ms
+2022-06-13 18:45:10.943 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-13 18:45:10.996 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 53.5555ms
+2022-06-13 18:45:15.687 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Movimientos - -
+2022-06-13 18:45:15.708 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.MovimientosController.Get (Inventory.Services)'
+2022-06-13 18:45:15.731 -05:00 [INF] Route matched with {action = "Get", controller = "Movimientos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Movimiento]]] Get() on controller Inventory.Services.Controllers.MovimientosController (Inventory.Services).
+2022-06-13 18:46:13.167 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-13 18:46:13.178 -05:00 [INF] Hosting environment: Development
+2022-06-13 18:46:13.178 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-13 18:46:13.181 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-13 18:46:13.261 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 82.4369ms
+2022-06-13 18:46:13.372 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-13 18:46:13.429 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 56.7507ms
+2022-06-13 18:46:20.189 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Movimientos - -
+2022-06-13 18:46:20.213 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.MovimientosController.Get (Inventory.Services)'
+2022-06-13 18:46:20.235 -05:00 [INF] Route matched with {action = "Get", controller = "Movimientos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Movimiento]]] Get() on controller Inventory.Services.Controllers.MovimientosController (Inventory.Services).
+2022-06-13 18:46:49.823 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-13 18:46:49.834 -05:00 [INF] Hosting environment: Development
+2022-06-13 18:46:49.835 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-13 18:46:49.842 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-13 18:46:49.920 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 80.2088ms
+2022-06-13 18:46:50.025 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-13 18:46:50.079 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 54.1184ms
+2022-06-13 18:46:55.616 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Movimientos - -
+2022-06-13 18:46:55.641 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.MovimientosController.Get (Inventory.Services)'
+2022-06-13 18:46:55.659 -05:00 [INF] Route matched with {action = "Get", controller = "Movimientos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Movimiento]]] Get() on controller Inventory.Services.Controllers.MovimientosController (Inventory.Services).
+2022-06-13 18:46:56.779 -05:00 [ERR] Service: GetClientAsync, Message: Invalid column name 'Discriminator'.
+Invalid column name 'Discriminator'.
+Invalid column name 'Cantidad'.
+Invalid column name 'Concepto'.
+Invalid column name 'EstadoMov'.
+Invalid column name 'Fecha'.
+Invalid column name 'IdMovimientos'.
+Invalid column name 'TipoDeMovimiento'. InnerMessage: 
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Discriminator'.
+Invalid column name 'Discriminator'.
+Invalid column name 'Cantidad'.
+Invalid column name 'Concepto'.
+Invalid column name 'EstadoMov'.
+Invalid column name 'Fecha'.
+Invalid column name 'IdMovimientos'.
+Invalid column name 'TipoDeMovimiento'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Inventory.Repositories.ImplementRepositories.MovimientoRepository.GetAllAsync() in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Repositories\ImplementRepositories\MovimientoRepository.cs:line 43
+   at Inventory.Core.Core.V1.MovimientoCore.GetMovimientoAsync() in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\Core\V1\MovimientoCore.cs:line 37
+ClientConnectionId:71bde186-4a8f-402f-981b-22860fdd48b9
+Error Number:207,State:1,Class:16
+2022-06-13 18:46:56.882 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[System.Collections.Generic.List`1[[Inventory.Entities.Entities.Movimiento, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-06-13 18:46:56.900 -05:00 [INF] Executed action Inventory.Services.Controllers.MovimientosController.Get (Inventory.Services) in 1236.8365ms
+2022-06-13 18:46:56.902 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.MovimientosController.Get (Inventory.Services)'
+2022-06-13 18:46:56.904 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Movimientos - - - 500 - application/json;+charset=utf-8 1291.2031ms
+2022-06-13 19:15:51.958 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Articulos - -
+2022-06-13 19:15:51.963 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-13 19:15:51.968 -05:00 [INF] Route matched with {action = "Get", controller = "Articulos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Articulo]]] Get() on controller Inventory.Services.Controllers.ArticulosController (Inventory.Services).
+2022-06-13 19:15:52.092 -05:00 [ERR] Service: GetClientAsync, Message: Invalid column name 'Discriminator'.
+Invalid column name 'Cantidad'.
+Invalid column name 'Concepto'.
+Invalid column name 'EstadoMov'.
+Invalid column name 'Fecha'.
+Invalid column name 'IdMovimientos'.
+Invalid column name 'TipoDeMovimiento'. InnerMessage: 
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Discriminator'.
+Invalid column name 'Cantidad'.
+Invalid column name 'Concepto'.
+Invalid column name 'EstadoMov'.
+Invalid column name 'Fecha'.
+Invalid column name 'IdMovimientos'.
+Invalid column name 'TipoDeMovimiento'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Inventory.Repositories.ImplementRepositories.ArticuloRepository.GetAllAsync() in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Repositories\ImplementRepositories\ArticuloRepository.cs:line 43
+   at Inventory.Core.Core.V1.ArticuloCore.GetArticulosAsync() in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\Core\V1\ArticuloCore.cs:line 36
+ClientConnectionId:2c17ce40-4df9-40dd-82a1-f7638326a8d4
+Error Number:207,State:1,Class:16
+2022-06-13 19:15:52.094 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[System.Collections.Generic.List`1[[Inventory.Entities.Entities.Articulo, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-06-13 19:15:52.095 -05:00 [INF] Executed action Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services) in 126.9724ms
+2022-06-13 19:15:52.096 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-13 19:15:52.096 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Articulos - - - 500 - application/json;+charset=utf-8 138.1562ms
+2022-06-13 20:11:14.441 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-13 20:11:14.453 -05:00 [INF] Hosting environment: Development
+2022-06-13 20:11:14.454 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-13 20:11:14.455 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-13 20:11:14.532 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 78.3910ms
+2022-06-13 20:11:14.667 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-13 20:11:14.738 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 68.2058ms
+2022-06-13 20:11:25.062 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Articulos - -
+2022-06-13 20:11:25.086 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-13 20:11:25.105 -05:00 [INF] Route matched with {action = "Get", controller = "Articulos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Articulo]]] Get() on controller Inventory.Services.Controllers.ArticulosController (Inventory.Services).
+2022-06-13 20:11:25.499 -05:00 [ERR] Service: GetClientAsync, Message: The entity type 'Movimiento' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943. InnerMessage: 
+System.InvalidOperationException: The entity type 'Movimiento' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.SqlServer.Internal.SqlServerModelValidator.Validate(IModel model, IDiagnosticsLogger`1 logger)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.ValidatingConvention.ProcessModelFinalized(IModel model)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ImmediateConventionScope.OnModelFinalized(IModel model)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.OnModelFinalized(IModel model)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.Model.FinalizeModel()
+   at Microsoft.EntityFrameworkCore.ModelBuilder.FinalizeModel()
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, IConventionSetBuilder conventionSetBuilder, ModelDependencies modelDependencies)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.GetModel(DbContext context, IConventionSetBuilder conventionSetBuilder, ModelDependencies modelDependencies)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.EntityFrameworkCore.Infrastructure.EntityFrameworkServicesBuilder.<>c.<TryAddCoreServices>b__7_3(IServiceProvider p)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IAsyncEnumerable<TEntity>.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Inventory.Repositories.ImplementRepositories.ArticuloRepository.GetAllAsync() in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Repositories\ImplementRepositories\ArticuloRepository.cs:line 43
+   at Inventory.Core.Core.V1.ArticuloCore.GetArticulosAsync() in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\Core\V1\ArticuloCore.cs:line 36
+2022-06-13 20:11:25.556 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[System.Collections.Generic.List`1[[Inventory.Entities.Entities.Articulo, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-06-13 20:11:25.572 -05:00 [INF] Executed action Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services) in 462.4878ms
+2022-06-13 20:11:25.574 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-13 20:11:25.575 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Articulos - - - 500 - application/json;+charset=utf-8 513.2056ms
+2022-06-13 20:14:43.058 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-13 20:14:43.074 -05:00 [INF] Hosting environment: Development
+2022-06-13 20:14:43.075 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-13 20:14:43.078 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-13 20:14:43.179 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 103.4754ms
+2022-06-13 20:14:43.302 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-13 20:14:43.384 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.5310ms
+2022-06-13 20:14:49.310 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Articulos - -
+2022-06-13 20:14:49.337 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-13 20:14:49.357 -05:00 [INF] Route matched with {action = "Get", controller = "Articulos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Articulo]]] Get() on controller Inventory.Services.Controllers.ArticulosController (Inventory.Services).
+2022-06-13 20:14:50.339 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[System.Collections.Generic.List`1[[Inventory.Entities.Entities.Articulo, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-06-13 20:14:50.358 -05:00 [INF] Executed action Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services) in 997.022ms
+2022-06-13 20:14:50.360 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-13 20:14:50.361 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Articulos - - - 200 - application/json;+charset=utf-8 1054.0159ms
+2022-06-13 20:15:01.152 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Movimientos - -
+2022-06-13 20:15:01.154 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.MovimientosController.Get (Inventory.Services)'
+2022-06-13 20:15:01.158 -05:00 [INF] Route matched with {action = "Get", controller = "Movimientos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Movimiento]]] Get() on controller Inventory.Services.Controllers.MovimientosController (Inventory.Services).
+2022-06-13 20:15:01.188 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[System.Collections.Generic.List`1[[Inventory.Entities.Entities.Movimiento, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-06-13 20:15:01.190 -05:00 [INF] Executed action Inventory.Services.Controllers.MovimientosController.Get (Inventory.Services) in 31.0819ms
+2022-06-13 20:15:01.190 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.MovimientosController.Get (Inventory.Services)'
+2022-06-13 20:15:01.190 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Movimientos - - - 200 - application/json;+charset=utf-8 38.0523ms
+2022-06-13 20:16:15.421 -05:00 [INF] Request starting HTTP/2 POST https://localhost:44300/api/Movimientos application/json 127
+2022-06-13 20:16:15.422 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.MovimientosController.Post (Inventory.Services)'
+2022-06-13 20:16:15.433 -05:00 [INF] Route matched with {action = "Post", controller = "Movimientos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Inventory.Entities.Entities.Movimiento]] Post(Inventory.Entities.DTOs.MovimientoCreateDto) on controller Inventory.Services.Controllers.MovimientosController (Inventory.Services).
+2022-06-13 20:16:15.517 -05:00 [INF] Executed action Inventory.Services.Controllers.MovimientosController.Post (Inventory.Services) in 83.6421ms
+2022-06-13 20:16:15.517 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.MovimientosController.Post (Inventory.Services)'
+2022-06-13 20:16:15.520 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+MovimientoCreateDto -> Movimiento
+Inventory.Entities.DTOs.MovimientoCreateDto -> Inventory.Entities.Entities.Movimiento
+   at lambda_method68(Closure , Object , Movimiento , ResolutionContext )
+   at Inventory.Core.Core.V1.MovimientoCore.CreateMovimientoAsync(MovimientoCreateDto entity) in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\Core\V1\MovimientoCore.cs:line 50
+   at Inventory.Services.Controllers.MovimientosController.Post(MovimientoCreateDto movimiento) in C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services\Controllers\MovimientosController.cs:line 40
+   at lambda_method63(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-06-13 20:16:15.607 -05:00 [INF] Request finished HTTP/2 POST https://localhost:44300/api/Movimientos application/json 127 - 500 - text/plain 186.1260ms
+2022-06-13 20:17:50.326 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-13 20:17:50.343 -05:00 [INF] Hosting environment: Development
+2022-06-13 20:17:50.344 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-13 20:17:50.346 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-13 20:17:50.442 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 97.9365ms
+2022-06-13 20:17:50.565 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-13 20:17:50.636 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 73.3253ms
+2022-06-13 20:18:10.285 -05:00 [INF] Request starting HTTP/2 POST https://localhost:44300/api/Movimientos application/json 126
+2022-06-13 20:18:10.311 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.MovimientosController.Post (Inventory.Services)'
+2022-06-13 20:18:10.337 -05:00 [INF] Route matched with {action = "Post", controller = "Movimientos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Inventory.Entities.Entities.Movimiento]] Post(Inventory.Entities.DTOs.MovimientoCreateDto) on controller Inventory.Services.Controllers.MovimientosController (Inventory.Services).
+2022-06-13 20:18:11.373 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[Inventory.Entities.Entities.Movimiento, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-13 20:18:11.389 -05:00 [INF] Executed action Inventory.Services.Controllers.MovimientosController.Post (Inventory.Services) in 1048.3886ms
+2022-06-13 20:18:11.391 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.MovimientosController.Post (Inventory.Services)'
+2022-06-13 20:18:11.392 -05:00 [INF] Request finished HTTP/2 POST https://localhost:44300/api/Movimientos application/json 126 - 500 - application/json;+charset=utf-8 1106.8251ms
+2022-06-13 20:20:23.446 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-13 20:20:23.463 -05:00 [INF] Hosting environment: Development
+2022-06-13 20:20:23.464 -05:00 [INF] Content root path: C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Services
+2022-06-13 20:20:23.468 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/index.html - -
+2022-06-13 20:20:23.549 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/index.html - - - 200 - text/html;charset=utf-8 84.4267ms
+2022-06-13 20:20:23.672 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - -
+2022-06-13 20:20:23.734 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 61.3343ms
+2022-06-13 20:20:52.312 -05:00 [INF] Request starting HTTP/2 POST https://localhost:44300/api/Movimientos application/json 119
+2022-06-13 20:20:52.340 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.MovimientosController.Post (Inventory.Services)'
+2022-06-13 20:20:52.371 -05:00 [INF] Route matched with {action = "Post", controller = "Movimientos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Inventory.Entities.Entities.Movimiento]] Post(Inventory.Entities.DTOs.MovimientoCreateDto) on controller Inventory.Services.Controllers.MovimientosController (Inventory.Services).
+2022-06-13 20:20:53.332 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[Inventory.Entities.Entities.Movimiento, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-13 20:20:53.353 -05:00 [INF] Executed action Inventory.Services.Controllers.MovimientosController.Post (Inventory.Services) in 978.8996ms
+2022-06-13 20:20:53.355 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.MovimientosController.Post (Inventory.Services)'
+2022-06-13 20:20:53.356 -05:00 [INF] Request finished HTTP/2 POST https://localhost:44300/api/Movimientos application/json 119 - 201 - application/json;+charset=utf-8 1043.8347ms
+2022-06-13 20:21:01.064 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Movimientos - -
+2022-06-13 20:21:01.066 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.MovimientosController.Get (Inventory.Services)'
+2022-06-13 20:21:01.069 -05:00 [INF] Route matched with {action = "Get", controller = "Movimientos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Movimiento]]] Get() on controller Inventory.Services.Controllers.MovimientosController (Inventory.Services).
+2022-06-13 20:21:01.245 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[System.Collections.Generic.List`1[[Inventory.Entities.Entities.Movimiento, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-06-13 20:21:01.247 -05:00 [INF] Executed action Inventory.Services.Controllers.MovimientosController.Get (Inventory.Services) in 176.9982ms
+2022-06-13 20:21:01.247 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.MovimientosController.Get (Inventory.Services)'
+2022-06-13 20:21:01.247 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Movimientos - - - 200 - application/json;+charset=utf-8 183.4670ms
+2022-06-13 20:21:11.125 -05:00 [INF] Request starting HTTP/2 GET https://localhost:44300/api/Articulos - -
+2022-06-13 20:21:11.126 -05:00 [INF] Executing endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-13 20:21:11.128 -05:00 [INF] Route matched with {action = "Get", controller = "Articulos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Inventory.Entities.Entities.Articulo]]] Get() on controller Inventory.Services.Controllers.ArticulosController (Inventory.Services).
+2022-06-13 20:21:11.151 -05:00 [INF] Executing ObjectResult, writing value of type 'Inventory.Entities.Utils.ResponseService`1[[System.Collections.Generic.List`1[[Inventory.Entities.Entities.Articulo, Inventory.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2022-06-13 20:21:11.153 -05:00 [INF] Executed action Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services) in 25.1721ms
+2022-06-13 20:21:11.153 -05:00 [INF] Executed endpoint 'Inventory.Services.Controllers.ArticulosController.Get (Inventory.Services)'
+2022-06-13 20:21:11.154 -05:00 [INF] Request finished HTTP/2 GET https://localhost:44300/api/Articulos - - - 200 - application/json;+charset=utf-8 28.3897ms

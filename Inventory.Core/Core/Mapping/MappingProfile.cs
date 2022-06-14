@@ -15,6 +15,9 @@ namespace Inventory.Core.Core.Mapping
         {
             CreateMap<ArticuloCreateDto, Articulo>();
             CreateMap<Articulo, ArticuloCreateDto>();
+
+            CreateMap<MovimientoCreateDto, Movimiento>();
+            CreateMap<Movimiento, MovimientoCreateDto>();
         }
     }
 }

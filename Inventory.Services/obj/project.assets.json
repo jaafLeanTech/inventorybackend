@@ -1831,7 +1831,8 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Inventory.Contracts": "1.0.0",
-          "Inventory.DataAccess": "1.0.0"
+          "Inventory.DataAccess": "1.0.0",
+          "Inventory.Repositories": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Inventory.Core.dll": {}

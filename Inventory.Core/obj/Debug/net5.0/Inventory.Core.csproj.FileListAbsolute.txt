@@ -17,3 +17,5 @@ C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\
 C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\obj\Debug\net5.0\Inventory.Core.pdb
 C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\bin\Debug\net5.0\Inventory.Contracts.dll
 C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\bin\Debug\net5.0\Inventory.Contracts.pdb
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\bin\Debug\net5.0\Inventory.Repositories.dll
+C:\Users\JHONNY AVENDANO\Desktop\Back_End\ClassProject\Inventory\Inventory.Core\bin\Debug\net5.0\Inventory.Repositories.pdb

@@ -11,36 +11,49 @@ using System.Threading.Tasks;
 
 namespace Inventory.Repositories.ImplementRepositories
 {
-    public class ArticuloRepository : IArticuloRepository
+    public class MovimientoRepository : IMovimientoRepository
     {
-
         private readonly SqlServerContext _context;
 
-        public ArticuloRepository()
+        public MovimientoRepository()
         {
             _context = new SqlServerContext();
         }
-        public async Task<Tuple<Articulo, bool>> AddAsync(Articulo entity)
+
+        public async Task<Tuple<Movimiento, bool>> AddAsync(Movimiento entity)
         {
             try
             {
-                var result = _context.Articulo.Add(entity);
+                var result = _context.Movimientos.Add(entity);
                 await _context.SaveChangesAsync();
 
                 return Tuple.Create(result.Entity, true);
+
             }
-            catch (Exception)
+            catch(Exception)
             {
                 throw;
             }
-
         }
 
-        public async Task<List<Articulo>> GetAllAsync()
+        public async Task<List<Movimiento>> GetAllAsync()
         {
             try
             {
-                return await _context.Articulo.ToListAsync();
+                return await _context.Movimientos.ToListAsync();
+            }
+            catch
+            {
+                throw;
+            }
+            
+        }
+
+        public async Task<Movimiento> GetBtIdAsync(int id)
+        {
+            try
+            {
+                return await _context.Movimientos.FindAsync(id);
             }
             catch
             {
@@ -48,39 +61,27 @@ namespace Inventory.Repositories.ImplementRepositories
             }
         }
 
-        public async Task<Articulo> GetBtIdAsync(int id)
+        public async Task<List<Movimiento>> GetByFilterAsync(Expression<Func<Movimiento, bool>> expressionFilter = null)
         {
             try
             {
-                return await _context.Articulo.FindAsync(id);
+                return await _context.Movimientos.Where<Movimiento>(expressionFilter).ToListAsync();
             }
             catch(Exception)
-            {
-                throw;
-            }
+            { 
+                throw; 
+            } 
         }
 
-        public async Task<List<Articulo>> GetByFilterAsync(Expression<Func<Articulo, bool>> expressionFilter = null)
+        public async Task<bool> UpdateAsync(Movimiento entity)
         {
             try
             {
-                return await _context.Articulo.Where<Articulo>(expressionFilter).ToListAsync();
-            }
-            catch(Exception)
-            {
-                throw;
-            }
-        }
-
-        public async Task<bool> UpdateAsync(Articulo entity)
-        {
-            try
-            {
-                var result = _context.Articulo.Update(entity);
+                var result = _context.Movimientos.Update(entity);
                 await _context.SaveChangesAsync();
                 return true;
             }
-            catch(Exception)
+            catch (Exception)
             {
                 throw;
             }

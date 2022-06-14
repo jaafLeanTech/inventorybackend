@@ -9,6 +9,7 @@ namespace Inventory.DataAccess.Context
         private readonly string _connectionString = string.Empty;
 
         public DbSet<Articulo> Articulo { get; set; }
+        public DbSet<Movimiento> Movimientos { get; set; }
 
         public SqlServerContext()
         {
@@ -30,9 +31,11 @@ namespace Inventory.DataAccess.Context
             modelBuilder.Entity<Articulo>().HasKey(c => new { c.IdArticulo });
             modelBuilder.Entity<Articulo>().Property(c => c.IdArticulo).UseIdentityColumn().Metadata.SetBeforeSaveBehavior(Microsoft.EntityFrameworkCore.Metadata.PropertySaveBehavior.Ignore);
 
+            modelBuilder.Entity<Movimiento>().HasKey(c => new { c.IdMovimientos });
+            modelBuilder.Entity<Movimiento>().Property(c => c.IdMovimientos).UseIdentityColumn().Metadata.SetBeforeSaveBehavior(Microsoft.EntityFrameworkCore.Metadata.PropertySaveBehavior.Ignore);
+
+
             base.OnModelCreating(modelBuilder);
         }
-
-        public DbSet<Articulo> Articulos { get; set; }
     }
 }
